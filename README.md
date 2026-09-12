@@ -5,6 +5,7 @@
 [![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B.svg)](https://streamlit.io/)
 [![Implicit ALS](https://img.shields.io/badge/Model-Implicit_ALS-green.svg)](https://github.com/benfred/implicit)
 [![Tests](https://img.shields.io/badge/Tests-Passing_13%2F13-success.svg)](#testing)
+[![PDF Proof](https://img.shields.io/badge/PDF_Proof-Download_Report-red.svg)](Steam_Game_Recommender_Project_Proof.pdf)
 
 An enterprise-grade, interview-ready recommendation engine built on Steam user gaming behaviors and rich game metadata. Features **Implicit Feedback Matrix Factorization (ALS)** with confidence weighting, **Content-Based TF-IDF** semantic matching, an **Adaptive Cold-Start Hybrid Engine**, rigorous **Ranking Metric Evaluation (NDCG@K, MAP@K, Precision@K)**, sub-25ms **FastAPI** inference, and an interactive **Streamlit** dashboard.
 
