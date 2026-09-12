@@ -1,0 +1,54 @@
+{
+  "warm_benchmark": {
+    "Popularity Baseline": {
+      "Precision@10": 0.04958741124544233,
+      "Recall@10": 0.184548599758613,
+      "NDCG@10": 0.13659535882735324,
+      "MAP@10": 0.09074103359155698,
+      "Catalog_Coverage@10": 0.008040201005025126,
+      "Users_Evaluated": 5211
+    },
+    "Content-Based (TF-IDF)": {
+      "Precision@10": 0.022644406064095186,
+      "Recall@10": 0.15945706085631622,
+      "NDCG@10": 0.11038305762795263,
+      "MAP@10": 0.08679169788877619,
+      "Catalog_Coverage@10": 0.41758793969849245,
+      "Users_Evaluated": 5211
+    },
+    "Implicit ALS (Pure CF)": {
+      "Precision@10": 0.09961619650738822,
+      "Recall@10": 0.4264242040207439,
+      "NDCG@10": 0.3717854103030688,
+      "MAP@10": 0.3109680673729367,
+      "Catalog_Coverage@10": 0.2771356783919598,
+      "Users_Evaluated": 5211
+    },
+    "Hybrid (ALS + Content)": {
+      "Precision@10": 0.07712531184033775,
+      "Recall@10": 0.35537851362284434,
+      "NDCG@10": 0.30688441005044925,
+      "MAP@10": 0.25642073486643924,
+      "Catalog_Coverage@10": 0.43366834170854274,
+      "Users_Evaluated": 5211
+    }
+  },
+  "cold_benchmark": {
+    "Implicit ALS (Pure CF - Cold)": {
+      "Precision@10": 0.0,
+      "Recall@10": 0.0,
+      "NDCG@10": 0.0,
+      "MAP@10": 0.0,
+      "Catalog_Coverage@10": 0.24673366834170854,
+      "Users_Evaluated": 3712
+    },
+    "Hybrid Engine (Cold)": {
+      "Precision@10": 0.009428879310344827,
+      "Recall@10": 0.06334924055829229,
+      "NDCG@10": 0.029272923387339448,
+      "MAP@10": 0.01690260869224366,
+      "Catalog_Coverage@10": 0.36758793969849246,
+      "Users_Evaluated": 3712
+    }
+  }
+}
