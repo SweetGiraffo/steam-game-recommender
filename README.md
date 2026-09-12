@@ -22,6 +22,20 @@ This repository builds a production-grade system that directly addresses these i
 
 ---
 
+## 📸 Live Application Screenshots (Visual Proof & Demo)
+
+| 1. Personalized Player Recommender | 2. Game-to-Game Explorer ("More Like This") |
+| :---: | :---: |
+| [![Player Recommender](assets/screenshots/01_player_recommender.png)](assets/screenshots/01_player_recommender.png) | [![Game Explorer](assets/screenshots/02_game_explorer.png)](assets/screenshots/02_game_explorer.png) |
+| *Personalized recommendations with library preview & model switcher* | *Cosine similarity across learned item factors & metadata TF-IDF* |
+
+| 3. Cold-Start Gamer Studio | 4. DS Interview Benchmark Hub |
+| :---: | :---: |
+| [![Cold Start Studio](assets/screenshots/03_cold_start_studio.png)](assets/screenshots/03_cold_start_studio.png) | [![Benchmark Hub](assets/screenshots/04_benchmark_hub.png)](assets/screenshots/04_benchmark_hub.png) |
+| *Instant zero-history profile synthesis from selected titles* | *Offline NDCG@10, MAP@10, Precision@10 & cold-start stress test* |
+
+---
+
 ## 🏆 Key DS Interview Talking Points
 
 1. **Implicit Feedback Transformation (Hu, Koren, Volinsky)**:
